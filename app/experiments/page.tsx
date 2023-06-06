@@ -45,6 +45,7 @@ function Page() {
           {data.data.map((experiment) => (
             <tr
               key={experiment.projectId}
+              className="cursor-pointer hover:bg-gray-400 "
               onClick={() => {
                 router.push(`/experiments/${experiment.projectId}`);
               }}

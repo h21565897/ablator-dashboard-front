@@ -4,7 +4,7 @@ type Props = {
   children: ReactElement | ReactElement[];
 };
 function ChartWrapper({ children }: Props) {
-  return <div className={"w-96"}>{children}</div>;
+  return <div className={"w-96 px-3 py-3"}>{children}</div>;
 }
 
 export default ChartWrapper;

@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className="px-3 py-4">
         <SessionProvider>{children}</SessionProvider>
       </body>
     </html>
